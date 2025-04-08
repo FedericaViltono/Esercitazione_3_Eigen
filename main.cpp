@@ -28,27 +28,6 @@ int main() {
     Vector2d x_atteso(-1.0, -1.0);
     cout << "Valore atteso per i tre sistemi: " << x_atteso.transpose() << "\n";
     
-/*
-    //creo un vettore in cui riporto le matrici A da utilizzare nel ciclo
-    vector<MatrixXd> matriciA = {
-        (MatrixXd(2, 2) << 0.554701962252291, -0.03770900990025203,
-                           0.8320502943378437, -0.9992878623566787).finished(),
-
-        (MatrixXd(2, 2) << 0.554701962252291, -0.5540673164667656,
-                           0.8320502943378437, -0.8324762492991315).finished(),
-
-        (MatrixXd(2, 2) << 0.554701962252291, -0.5547019558519056,
-                           0.8320502943378437, -0.8320502947645361).finished()
-    };
-    
-    //creo un vettore in cui riporto i vettori b da utilizzare nel ciclo
-    vector<VectorXd> vettorib = {
-        (Vector2d() << -0.5169911863249772, 0.1672384680188350).finished(),
-        (Vector2d() << -0.0006394645785530173, 0.0004259549612877223).finished(),
-        (Vector2d() << -6.400391328043042e-10, 4.266924591433961e-10).finished()
-    };
-*/
-
     vector<MatrixXd> matriciA;
     vector<VectorXd> vettorib;
     
